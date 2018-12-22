@@ -15,10 +15,11 @@ function whileLoop(n) {
   }
   return "done"
 }
+
 function doWhileLoop(array) {
-  var i=1
+  var i = 1
   function incrementVariable() {
-    i=i+1;
+    i = i + 1;
   }
   do { 
     array.shift(i);
